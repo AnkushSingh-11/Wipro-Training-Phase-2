@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+</head>
+<style>
+    form{
+        text-align: center;
+    }
+
+    .container{
+        padding-left: 5px;
+        font-size: larger;
+    }
+
+    button{
+             background-color: #04AA6D;
+             color: white;
+             padding: 14px 20px;
+             margin: 8px 0;
+             border: none;
+             cursor:auto;
+    } 
+</style>
+
+<body>
+    
+    <form>
+    <h2>Simple Form</h2>
+    <div class="container">
+        <label for="name" >Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email" >Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="message" >Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+    </div>    
+        <div class="submit">
+        <button type="submit">Submit</button><br>
+    </div>
+    </form>
+</body>
+</html>

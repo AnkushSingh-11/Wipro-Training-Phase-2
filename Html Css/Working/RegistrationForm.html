@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<style>
+    h2{
+        text-align: center;
+    }
+    div {text-align: center;}
+    form{
+        border: 5px solid #f1f1f1;
+    }
+
+    .container{
+        padding: 16px;
+    }
+
+    #register {
+             background-color: #04AA6D;
+             border-radius: 10px;
+             color: white;
+             padding: 14px 20px;
+             margin: 8px 0;
+             border: none;
+             cursor: pointer;
+    } 
+    #Cancel{
+             background-color: #e2120a;
+             border-radius: 10px;
+             color: white;
+             padding: 14px 20px;
+             margin: 8px 0;
+             border: none;
+             cursor: pointer;
+    } 
+</style>
+<body>
+    <h2>Feedback Form</h2>
+    <div class="container">
+    <form action="/login" method="post">
+        <label for="uname">Username:</label><br>
+        <input type="text" placeholder="Enter username" name="uname"><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" placeholder="Enter email" name="email"><br>
+
+        <label for="pass">Password:</label><br>
+        <input type="password" placeholder="Enter new password" name="pass"><br>
+
+        <label for="passc">Confirm Password:</label><br>
+        <input type="password" placeholder="Confirm password" name="passc"><br>
+
+        <button type="submit" id="register">Register</button>
+        <button  type="submit" id="Cancel" >Cancel</button><br>
+    </div>
+    </form>
+</body>
+</html>

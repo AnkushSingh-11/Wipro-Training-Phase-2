@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+table, th {
+    text-align: center;
+    border:1px solid black;
+  }
+
+button{
+    padding: 10px 10px;
+    text-align: center;
+    background-color: rgb(23, 237, 8);
+    
+    border-radius: 5px;
+    border: 2px black;
+}
+</style>
+<body>
+    <center><h1>Online Store</h1></center>
+    <center><table>
+        <tr>
+            <th>Item</th>
+            <th>Quantity</th>
+            <th>Mode of Payment</th>
+        </tr>
+        <tr>
+            <td><input type="text" placeholder="Enter Item"></td>
+            <td><input type="number" placeholder="Enter Quantity"></td>
+            <td>
+            <select name="payment" id="payment">
+                  <option value="Cash on dilivery">Cash on dilivery</option>
+                  <option value="Online">Online</option>
+                  <option value="net banking">Net Banking</option>
+            </select>
+            </td>
+        </tr>
+    </table></center><br><br>
+
+    <center><button type="submit">Confirm Order</button></center>
+
+</body>
+</html>
